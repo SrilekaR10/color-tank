@@ -1,0 +1,248 @@
+@Keyframes wateropen{
+    from {height:30px;}
+    to{height:200px; } 
+  }
+  
+  
+  @Keyframes watertankanimation{
+    from {height:100%;bottom:100%}
+    to{ height:0;bottom:100%} 
+  }
+  @keyframes wateranimae {
+    
+    from{height:0% 77%, 4% 70%, 7% 65%, 11% 59%, 16% 55%, 23% 51%, 30% 51%, 36% 54%, 40% 58%, 43% 61%, 47% 68%, 51% 71%, 58% 74%, 66% 68%, 70% 63%, 75% 57%, 79% 52%, 88% 45%, 93% 42%, 99% 41%, 100% 100%, 2% 98%, 0% 99%, 7% 99%, 0% 100%;}
+    to{height: 0% 52%0% 52%, 6% 56%, 6% 56%, 10% 61%, 10% 61%, 17% 66%, 17% 66%, 22% 67%, 22% 67%, 29% 67%, 29% 70%, 35% 63%, 35% 63%, 43% 56%, 43% 56%, 50% 49%, 50% 49%, 58% 43%, 58% 43%, 66% 39%, 66% 39%, 77% 36%, 77% 36%, 84% 36%, 84% 36%, 92% 37%, 92% 37%;}
+  }
+  
+  #container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 70vh;
+   margin-left: -700px;
+   
+  }
+  #can{
+    
+    width:150px;
+    height: 200px;
+    background-color: white;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    margin-top: 150px;
+    
+  }
+  #water{
+    height:100%;
+    
+    background-color: red;
+  
+  }
+  #tap{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+  
+  }
+  #tapinner{
+  background-color: brown;
+  height: 10px;
+  width:70px;
+  margin-top:300px;
+  }
+  #tapouter{
+    background-color: brown;
+    height:40px;
+    width:10px;
+    position: absolute;
+    bottom:270px;
+    
+  }
+  #taphandle{
+    background-color: red;
+    width:30px;
+    height:10px;
+    position: absolute;
+    bottom:355px;
+    right:990px;
+    border-radius: 20px;
+  }
+  button{
+    border:0;
+  }
+  #waterflow{
+    height:200px;
+    width:10px;
+    background-color: #fff;
+    position: absolute;
+    top:315px;
+    z-index: 2;
+  }
+  
+  
+  @Keyframes wateropen1{
+    from {height:0;top:100%}
+    to{height:100%;top:0 } 
+  }
+  #container1{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 70vh;
+   margin-top: -400px;
+  }
+  #can1{
+    width:150px;
+    height: 200px;
+    background-color: white;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    margin-top: -70px;
+  }
+  #water1{
+    height:100%;
+   
+    background-color: lightgreen;
+  
+  }
+  #tap1{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+  
+  }
+  #tapinner1{
+  background-color: brown;
+  height: 10px;
+  width:70px;
+  margin-top:180px;
+  }
+  #tapouter1{
+    background-color: brown;
+    height:50px;
+    width:10px;
+    position: absolute;
+    bottom:250px;
+  }
+  #taphandle1{
+    background-color: red;
+    width:30px;
+    height:10px;
+    position: absolute;
+    bottom:299px;
+    right: 515px;
+    border-radius: 20px;
+  }
+  button{
+    border:0;
+  }
+  #waterflow1{
+    height:200px;
+    width:10px;
+    background-color: #fff;
+    position: absolute;
+    top:325px;
+    z-index: 2;
+  }
+  
+  
+  
+  @Keyframes wateropen2{
+    from {height:0;top:100%}
+    to{height:100%;top:0 } 
+  }
+  #container2{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 70vh;
+   margin-left: 700px;
+   margin-top: -410px;
+  }
+  #can2{
+    width:150px;
+    height: 200px;
+    background-color: white;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    margin-top: -270px;
+  }
+  #water2{
+    height:100%;
+   
+    background-color: blue;
+    
+  }
+  #tap2{
+    display:flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+  
+  }
+  #tapinner2{
+  background-color: brown;
+  height: 10px;
+  width:70px;
+  margin-top:180px;
+  }
+  #tapouter2{
+    background-color: brown;
+    height:40px;
+    width:10px;
+    position: absolute;
+    bottom:260px;
+  }
+  #taphandle2{
+    background-color: red;
+    width:30px;
+    height:10px;
+    position: absolute;
+    bottom:299px;
+    right:165px;
+    border-radius: 20px;
+  }
+  button{
+    border:0;
+  }
+  #waterflow2{
+    height:200px;
+    width:10px;
+    background-color: #fff;
+    position: absolute;
+    top:325px;
+    z-index: 2;
+  }
+  
+   
+  #container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-left: -700px;
+    
+    
+   }
+   #can3{
+    overflow: hidden;
+    position: absolute;
+     width:1000px;
+     height: 200px;
+     background-color:white;
+    border-radius: 10px 10px 10px 10px ;
+     margin-left: 750px;
+     border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+   }
+   
+   #water3{
+    height:170px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    animation-play-state: paused;
+   }
